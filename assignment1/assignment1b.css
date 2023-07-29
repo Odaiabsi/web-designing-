@@ -1,4 +1,97 @@
+body {
+    background-color:white ;
+    font-size:16px;
+    
+    
+}
 
+.container {
+    display: flex;
+    position:relative;
+    left:0;
+}
+
+.box {
+    position: relative;
+    border: 3px solid black;
+    height: 150px;
+    padding: 10px;
+}
+
+.box1 {
+   
+    background-color:darkgray;
+    margin-left:32px;
+    margin-right:16px;
+   
+}
+
+.box2 {
+    background-color: darkgray;
+    margin-right: 8px;
+    margin-left:16px;
+   
+}
+
+.box3 {
+    
+    background-color: darkgray;
+    margin-right: 32px;
+    margin-left:8px;
+    
+}
+
+.subtitle {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 30%;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+.subtitle1 {
+  background-color: red;
+  color:white;
+}
+
+.subtitle2 {
+    
+    background-color: blue;
+    color:orangered;
+    
+}
+
+.subtitle3 {
+    
+    background-color: green;
+    color:red
+    
+}
+
+
+
+.basic {
+    position:relative;
+    font-size : 1em;
+    text-align:left;
+    margin-top:35px;
+    overflow:hidden
+}
+.h1 {
+    position: relative;
+    color: black;
+    font-family: 'Agency FB';
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: 8%;
+    font-weight: bold;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 @media screen and (min-width: 992px) {
     .container {
